@@ -557,7 +557,7 @@ ORDER BY patients DESC;
 
 
 >***Initial observation:*** 
-- **Diabetes, Hypertension, and Obesity** are the three conditions with the highest number of diagnosed patients, accounting for more than **73%** of all cases in the dataset.
+>- **Diabetes, Hypertension, and Obesity** are the three conditions with the highest number of diagnosed patients, accounting for more than **73%** of all cases in the dataset.
 
 ``` sql
 -- Distribution of conditions by age group
@@ -636,9 +636,9 @@ ORDER BY medical_condition;
 ![F5](Images/Figure-5.png)
 
 > ***Initial observations:***
-- The age distribution of conditions shows that the most common conditions primarily occur in the **18–44** (≈39%) and **45–64** (≈30%) age groups. The **65+** groups account for around 29–31%. The **under-18** group has a very small share (~0.2%). Chronic conditions (Hypertension, Diabetes, Obesity) mainly occur in young and middle-aged adults (18–64). 
-- In terms of gender distribution, **females** predominate in most conditions, especially Asthma and Arthritis. Males have relatively balanced proportions in Diabetes and Hypertension. The non-binary group has a significantly higher proportion in Obesity and Hypertension. 
-- For blood type, **Arthritis** patients are entirely in blood type **O–**. Conditions like **Asthma, Cancer, and Hypertension** have patient populations concentrated in **A+**, while **Diabetes** is mainly in **O+**. **Obesity** is present across most blood types (notably absent in **A+, B+, O+**).
+>- The age distribution of conditions shows that the most common conditions primarily occur in the **18–44** (≈39%) and **45–64** (≈30%) age groups. The **65+** groups account for around 29–31%. The **under-18** group has a very small share (~0.2%). Chronic conditions (Hypertension, Diabetes, Obesity) mainly occur in young and middle-aged adults (18–64). 
+>- In terms of gender distribution, **females** predominate in most conditions, especially Asthma and Arthritis. Males have relatively balanced proportions in Diabetes and Hypertension. The non-binary group has a significantly higher proportion in Obesity and Hypertension. 
+>- For blood type, **Arthritis** patients are entirely in blood type **O–**. Conditions like **Asthma, Cancer, and Hypertension** have patient populations concentrated in **A+**, while **Diabetes** is mainly in **O+**. **Obesity** is present across most blood types (notably absent in **A+, B+, O+**).
 
 ``` sql
 -- Distribution by age, gender, and blood type together
